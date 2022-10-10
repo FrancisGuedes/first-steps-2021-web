@@ -3,14 +3,14 @@ import { strings } from '../../utils/strings';
 
 import './home.scss';
 
-/* Example Component */
+/* Example Template */
 
 const Home = () => {
   const homeLabels: Label = {...strings.homePage}
 
   return (
     <>
-      <h1>{homeLabels.text}</h1>
+      <h1 className='home-title'>{homeLabels.text}</h1>
     </>
   );
 }

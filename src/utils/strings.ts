@@ -6,3 +6,9 @@ export const strings = {
     text: "Change me please!"
   }
 }
+
+export const httpError = {
+  notFound: {
+    text: " Error - Change me please!"
+  }
+}
