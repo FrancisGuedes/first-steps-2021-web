@@ -1,3 +1,3 @@
 export type Label = {
-  text: string
-}
+  text: string;
+};
