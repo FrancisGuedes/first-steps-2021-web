@@ -10,6 +10,7 @@ const Home = () => {
   const homeLabels: Label = { ...strings.homePage }
 
   return (
+  
     <div>
       <HeroSection />
       <h1 className='home-title'>{homeLabels.text}</h1>

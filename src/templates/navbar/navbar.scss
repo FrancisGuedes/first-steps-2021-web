@@ -1,0 +1,61 @@
+/* II. NAVBAR */
+
+.navbar-wrapper {
+    height: 66px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #212168e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    & .logo {
+        & .navbar-logo {
+            width: 66px;
+            height: 66px;
+        }
+    }
+}
+
+.menu-toggle{
+padding:16px 6px;
+cursor: pointer;
+}
+
+.fa-bars {
+    height: 6px;
+    width:35px ;
+    background-color: white;
+    border-radius: 10px;
+    display: block;
+
+    &::before,
+    &::after {
+        content: "";
+        width: 35px;
+        height: 6px;
+        background-color: white;
+        border-radius: 10px;
+        position: absolute;
+    }
+    &:before {
+        top: 19px;
+    }
+    &:after {
+        top: 41px;
+    }
+}
+
+.navbar-container {
+    position: fixed;
+    top: 66px;
+    background-color: #212168f7;
+    transition: all 0.5s ease;
+    right:-100vw
+}
+
+.navbar-container-open {
+    right:0;
+}
